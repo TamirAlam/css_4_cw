@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f6f7;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  display: block;
+  margin: 8px;
+}
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  background-color: #0a0a23;
+  color: #fff;
+  border-bottom: 4px solid #fdb347;
+}
+
+header {
+  display: block;
+  unicode-bidi: isolate;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f6f7;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.p-\[15px\] {
+  padding: 15px;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex {
+  display: flex;
+}
+* {
+  text-shadow: none !important;
+}
+.no-underline {
+  text-decoration-line: none;
+}
+.text-foreground-secondary {
+  color: var(--foreground-secondary);
+}
+.text-lg {
+  font-size: 24px;
+  line-height: 1.3333333;
+}
+.text-center {
+  text-align: center;
+}
+.py-2\.5 {
+  padding-bottom: .625rem;
+  padding-top: .625rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.bg-background-quaternary {
+  background-color: var(--background-quaternary);
+}
+.border-foreground-secondary {
+  border-color: var(--foreground-secondary);
+}
+.border-solid {
+  border-style: solid;
+}
+.border-3 {
+  border-width: 3px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.w-full {
+  width: 100%;
+}
+.inline-block {
+  display: inline-block;
+}
+.block {
+  display: block;
+}
+.mt-\[0\.5px\] {
+  margin-top: .5px;
+}
+.relative {
+  position: relative;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-center {
+  text-align: center;
+}
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+.btn, button, input[type=submit] {
+  background-color: var(--quaternary-background);
+  border: 3px solid var(--secondary-color);
+  border-radius: 0;
+  color: var(--secondary-color);
+  text-decoration: none;
+  white-space: pre-line;
+}
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button, select {
+  text-transform: none;
+}
+button {
+  overflow: visible;
+}
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+element.style {
+  position: fixed;
+  top: 1px;
+  left: 1px;
+  width: 1px;
+  height: 0px;
+  padding: 0px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0px, 0px, 0px, 0px);
+  white-space: nowrap;
+  border-width: 0px;
+}
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.monaco-aria-container {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  top: 0;
+  width: 1px;
+}
+.monaco-aria-container {
+  left: -999em;
+  position: absolute;
+}
